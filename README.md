@@ -1,16 +1,98 @@
-# React + Vite
+# 🌦️ React Weather Widget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built using React and Vite.
+It allows users to search for any city and get real-time weather information with a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search weather by city name
+* 🌡️ Displays temperature, min & max temperature
+* 💧 Shows humidity and weather condition
+* 🖼️ Dynamic weather images based on conditions
+* 🎨 Clean UI using Material UI (MUI)
+* ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React (Vite)
+* **UI Library:** Material UI (MUI)
+* **Language:** JavaScript
+* **API:** Weather API (real-time data)
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Initial State
+
+![Initial UI](./screenshots/initial.png)
+
+### 🔹 Clear Sky Weather
+
+![Clear Sky](./screenshots/clear.png)
+
+### 🔹 Cloudy Weather
+
+![Cloudy](./screenshots/cloudy.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-weather-widget.git
+cd react-weather-widget
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the project
+
+```bash
+npm run dev
+```
+
+### 4. Open in browser
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 🧠 How It Works
+
+* User enters a city name
+* App sends request to weather API
+* Receives weather data (temperature, humidity, etc.)
+* Displays results dynamically on UI
+
+---
+
+## 🔮 Future Improvements
+
+* 🌐 5-day weather forecast
+* 📍 Auto-detect user location
+* 🌙 Dark mode support
+* ❌ Better error handling (invalid city)
+* ⏳ Loading spinner
+
+---
+
+## 👨‍💻 Author
+
+**Yash Shelar**
+
+---
+
+## ⭐ Support
