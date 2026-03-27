@@ -29,15 +29,15 @@ It allows users to search for any city and get real-time weather information wit
 
 ### 🔹 Initial State
 
-![Initial UI](./screenshots/initial.png)
+![Initial UI](./screenshots/Initial.png)
 
 ### 🔹 Clear Sky Weather
 
-![Clear Sky](./screenshots/clear.png)
+![Clear Sky](./screenshots/Clear.png)
 
 ### 🔹 Cloudy Weather
 
-![Cloudy](./screenshots/cloudy.png)
+![Cloudy](./screenshots/Cloudy.png)
 
 ---
 
