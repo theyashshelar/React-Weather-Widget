@@ -94,5 +94,3 @@ http://localhost:5173/
 **Yash Shelar**
 
 ---
-
-## ⭐ Support
